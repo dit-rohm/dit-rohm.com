@@ -1,0 +1,24 @@
+{
+  "name": "dit",
+  "version": "0.0.0",
+  "authors": [
+    "dit <dit.rohm@gmail.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap-sass": "~3.3.3"
+  }
+}
