@@ -1,0 +1,36 @@
+.jumbotron {
+  background: url("../testImg/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+
+  p {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.midashi-btn {
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.midashi-btn:hover {
+  color: silver;
+  border-color: silver;
+}

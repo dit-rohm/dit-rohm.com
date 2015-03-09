@@ -1,0 +1,19 @@
+---
+layout: layout
+blog: news
+---
+
+<% latest_articles = page_articles.sort_by{|a| a.date }.reverse[0,5] %>
+
+
+<h2>トップページ</h2>
+<p>ここがトップページです。ここではお知らせの一覧も表示させています。</p>
+
+<h3>お知らせ</h3>
+<ul>
+<% latest_articles.each do |article| %>
+  <li>
+    <%= link_to article.title, article %>
+  </li>
+<% end %>
+</ul>

@@ -1,0 +1,13 @@
+---
+title: News
+blog: news
+---
+
+<h2>お知らせ一覧</h2>
+<ul>
+<% page_articles.each do |article| %>
+  <li>
+    <%= link_to article.title, article %>
+  </li>
+<% end %>
+</ul>
