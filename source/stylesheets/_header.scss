@@ -1,10 +1,10 @@
 .jumbotron {
-	background: url("../testImg/header.jpg");
-	background-position: center center;
-	background-size: cover;
-	color: #fff;
-	vertical-align: middle;
-	text-align: center;
+  background: url("../testImg/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
 
   p {
   display: inline-block;
@@ -13,18 +13,18 @@
 
 
 .midashi-btn {
-	border: 1px solid white;
-	color: white;
-	border-radius: 0;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
 
-	-webkit-transition: 0.3s ease-in-out;
-	-moz-transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .midashi-btn:hover {
-	color: silver;
-	border-color: silver;
+  color: silver;
+  border-color: silver;
 }
 
