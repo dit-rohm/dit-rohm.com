@@ -5,12 +5,12 @@
 	color: #fff;
 	vertical-align: middle;
 	text-align: center;
+
+  p {
+  display: inline-block;
+  text-align: left;
 }
 
-.jumbotron p {
-	display: inline-block;
-	text-align: left;
-}
 
 .midashi-btn {
 	border: 1px solid white;
