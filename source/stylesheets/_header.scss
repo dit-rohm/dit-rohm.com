@@ -3,8 +3,6 @@
   background-position: center center;
   background-size: cover;
   color: #fff;
-  vertical-align: middle;
-  text-align: center;
 
   p {
     display: inline-block;
@@ -12,6 +10,13 @@
   }
 }
 
+.vertical-center {
+  position relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 .midashi-btn {
   border: 1px solid white;
