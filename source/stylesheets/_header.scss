@@ -1,0 +1,30 @@
+header.jumbotron {
+	background: url("img/header.jpg");
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+			
+header.jumbotron p {
+	display: inline-block;
+	text-align: left;
+}
+		
+header .midashi-btn {
+	border: 1px solid white;
+	color: white;
+	border-radius: 0;
+
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+  	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+header .midashi-btn:hover {
+	color: silver;
+	border-color: silver;
+}
+
