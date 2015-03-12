@@ -1,0 +1,44 @@
+.navbar-custom {
+  background-color: transparent;
+  border-color: transparent;
+  .navbar-nav {
+    li {
+      a {
+        color: #fff;
+        opacity: 0.5;
+        &:hover, &:focus {
+          color: #fff;
+          opacity: 1;
+          background-color: transparent;
+        }
+      }
+    }
+    .active {
+      a {
+        color: #fff;
+        opacity: 1;
+        background-color: transparent;
+        &:hover, &:focus {
+        color: #fff;
+        opacity: 1;
+        background-color: transparent;
+        }
+      }
+    }
+  }
+  .navbar-toggle {
+    border-color: #fff;
+    opacity: 0.5;
+    &:hover, &:focus {
+      border-color: #fff;
+      opacity: 1.0;
+    }
+    .icon-bar {
+      background-color: #fff;
+      opacity: 0.5;
+    }
+  }
+  .navbar-collapse {
+    border-color: #fff;
+  }
+}
