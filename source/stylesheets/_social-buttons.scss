@@ -1,0 +1,29 @@
+.social-buttons{
+  ul {
+    list-style-type: none;
+    margin: 0 0 0.5em 0;
+    float: left;
+  }
+
+  li {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+  &:before {
+    content: " ";
+    display: block;
+  }
+}
+
+.twitter-share-button {
+  width: 90px !important;
+}
+
+.fb_iframe_widget * {
+  vertical-align: top !important;
+}
+
+#pocket-button-0 {
+  width: 100px;
+}
