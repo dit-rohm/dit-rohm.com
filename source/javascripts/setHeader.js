@@ -6,7 +6,7 @@ $(function() {
     var wW = $(window).innerWidth();
     var wH = $(window).innerHeight();
     // cssに反映
-    $('header.jumbotron').css('height', wW+'px');
+    $('header.jumbotron').css('width', wW+'px');
     $('header.jumbotron').css('height', wH+'px');
   });
 });
