@@ -5,29 +5,21 @@ blog: news
 
 <% latest_articles = page_articles.sort_by{|a| a.date }.reverse[0,5] %>
 
-<h2>トップページ</h2>
-<p>ここがトップページです。ここではお知らせの一覧も表示させています。</p>
-
-<div class="activity-base">
+<section class="activity-base">
   <h2>活動拠点</h2>
-  <p>同志社大学　京田辺キャンパス　ローム記念館2F</p>
-  <p>京田辺キャンパス　正面すぐ右</p>
-  <div id="map">
-  </div><!-- /#map -->
-</div><!-- /.activity-base -->
+  <p>
+    同志社大学 京田辺キャンパス ローム記念館2F<br>
+    京田辺キャンパス 正門すぐ右
+  </p>
+  <div id="map"></div>
+</section>
 
-<div class="join">
+<section class="join">
   <h2>ともに活動しましょう</h2>
-  <p>私たちと一緒に一流のエンジニアを目指しませんか？</p>
-  <p>私たちが全力でサポートします。</p>
-  <button type="button" class="join-btn" onclick="location.href='https://docs.google.com/forms/d/1MOf0ojOY6SBr6UIp3b0essQ0x7J_kGXcoJ3XEmk4ZRM/viewform?usp=send_form'">申し込む</button>
-</div><!-- /.join-->
+  <p>
+    私たちと一緒に一流のエンジニアを目指しませんか？<br>
+    私たちが全力でサポートします。
+  </p>
+  <a class="join-btn" href="https://docs.google.com/forms/d/1MOf0ojOY6SBr6UIp3b0essQ0x7J_kGXcoJ3XEmk4ZRM/viewform?usp=send_form" target="_blank">申し込む</a>
+</section>
 
-<h3>お知らせ</h3>
-<ul>
-<% latest_articles.each do |article| %>
-  <li>
-    <%= link_to article.title, article %>
-  </li>
-<% end %>
-</ul>
