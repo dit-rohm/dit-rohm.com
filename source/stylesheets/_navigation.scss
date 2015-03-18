@@ -2,10 +2,12 @@
   background-color: transparent;
   border-color: transparent;
   .navbar-nav {
+    margin-left: 50px;
     li {
       a {
         color: #fff;
         opacity: 0.5;
+        text-transform: uppercase;
         &:hover, &:focus {
           color: #fff;
           opacity: 1;
@@ -19,9 +21,9 @@
         opacity: 1;
         background-color: transparent;
         &:hover, &:focus {
-        color: #fff;
-        opacity: 1;
-        background-color: transparent;
+          color: #fff;
+          opacity: 1;
+          background-color: transparent;
         }
       }
     }

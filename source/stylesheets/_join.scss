@@ -1,19 +1,23 @@
 .join {
-  margin-top: 80px;
-  text-align: center;
   h2 {
-    color: #333;
+    color: $base-text-color;
+    text-align: center;
   }
   p {
-    color: #757575;
+    color: $sub-text-color;
+    text-align: center;
   }
   .join-btn {
+    display: block;
+    margin: 0 auto;
     margin-top: 20px;
-    border: none;
     width: 270px;
     height: 45px;
-    outline: none;
+    border: none;
+    background-color: $purple;
     color: #fff;
-    background-color: #673AB7;
+    outline: none;
+    line-height: 45px;
+    text-align: center;
   }
 }
