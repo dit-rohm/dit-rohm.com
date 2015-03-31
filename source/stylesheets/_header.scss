@@ -9,15 +9,6 @@
   color: #fff;
   text-align: center;
 
-  .logo {
-    margin: 0;
-    a {
-      color: #fff;
-      font-size: 2rem;
-      font-family: Myriad sans-serif;
-    }
-  }
-
   .vertical-center {
     position: absolute;
     top: 0;
@@ -75,6 +66,14 @@
 .navbar-custom {
   // background-color: transparent;
   border-color: transparent;
+  .logo {
+    margin: 0;
+    a {
+      color: #fff;
+      font-size: 2rem;
+      font-family: Myriad sans-serif;
+    }
+  }
   .navbar-nav {
     margin-left: 50px;
     li {
@@ -122,24 +121,56 @@
     }
   }
   .navbar-toggle {
-    border-color: #fff;
     opacity: 0.5;
-    &:hover, &:focus {
-      border-color: #fff;
+    &:hover {
       opacity: 1.0;
     }
     .icon-bar {
       background-color: #fff;
-      opacity: 0.5;
     }
   }
   .navbar-collapse {
-    border-color: #fff;
+    box-shadow: none;
   }
 }
 
 @media (max-width: 768px) {
-  .navbar-nav {
-    margin-left: 0;
+  .jumbotron {
+    padding: 0;
+    .container {
+      padding: 0;
+      .navbar-custom {
+        background-color: #fff;
+        .logo {
+          a {
+            color: $purple;
+            font-size: 1.3rem;
+            font-weight: bold;
+          }
+        }
+        .navbar-nav {
+          background-color: #fff;
+          margin: 0 !important;
+          text-align: center;
+          li {
+            a {
+              color: $base-text-color !important;
+            }
+          }
+          .contact {
+            a {
+              color: $base-text-color !important;
+              margin: 0;
+              margin-bottom: 8px;
+            }
+          }
+        }
+        .navbar-toggle {
+          .icon-bar {
+            background-color: $base-text-color ;
+          }
+        }
+      }
+    }
   }
 }
