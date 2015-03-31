@@ -121,6 +121,14 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :syntax
 
+activate :deploy do |deploy|
+  deploy.method   = :ftp
+  deploy.host     = 'kir590923.kir.jp'
+  deploy.path     = '/public_html'
+  deploy.user     = 'kir590923'
+  deploy.password = 'd78gff8a'
+end
+
 configure :development do
   activate :google_analytics do |ga|
     ga.tracking_id = ''
@@ -129,7 +137,7 @@ end
 
 configure :build do
   activate :google_analytics do |ga|
-    ga.tracking_id = ''
+    ga.tracking_id = 'UA-61361620-1'
   end
 
   activate :minify_css
