@@ -1,5 +1,15 @@
 .service {
   background: $bg-color;
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  .col-sm-6 {
+    h2 {
+      margin-top: 50px;
+    }
+  }
 }
 
 .languages {
@@ -42,8 +52,15 @@
 
 .mentor {
   background: $purple;
-  h2, p {
-    color: #fff !important;
+  color: #eef;
+  h2 {
+    color: #eef !important;
+  }
+  p {
+    color: #cdcdfa !important;
+  }
+  .col-sm-2 {
+    text-align: center;
   }
 }
 

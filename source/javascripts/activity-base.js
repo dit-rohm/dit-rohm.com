@@ -43,7 +43,7 @@ $(function () {
  );
  */
   $('.more').on('click', function() {
-    $('.s').velocity('scroll', {
+    $('.service').velocity('scroll', {
       duration: 800,
     });
   });
