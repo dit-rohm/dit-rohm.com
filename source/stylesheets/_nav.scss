@@ -17,22 +17,3 @@
       }
   }
 }
-
-@media (max-width: 768px) {
-  .navigation {
-    .navbar-custom {
-      .navbar-nav {
-        margin: 0 !important;
-        text-align: center;
-        .contact {
-          a {
-            margin: 0;
-            margin-bottom: 8px;
-            border: none;
-          }
-        }
-      }
-    }
-  }
-}
-
