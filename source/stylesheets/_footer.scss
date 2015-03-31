@@ -1,6 +1,6 @@
 .footer {
   margin-top: $section-margin;
-  background: #ebebeb;
+  background: $bg-black-color;
 
  .container{
     max-width: 970px;
@@ -19,18 +19,6 @@
   }
 }
 
-.logo{
-  color:#808080;
-}
-.logo a{
-  font-weight:bold;
-  color:#404040;
-  list-style:none;
-}
-.logo a:hover{
-  text-decoration:none;
-  color:#ea4c89
-}
 .footer-links{
   float:left;
   width:180px;
