@@ -1,0 +1,38 @@
+.navigation {
+  background-color: $purple;
+  height: $nav-height;
+
+  .container {
+    padding: 0;
+  }
+
+  .navbar-custom {
+    background-color: $purple;
+    border-color: transparent;
+    .logo {
+      a {
+        font-size: 1.3rem;
+        font-weight: bold;
+        }
+      }
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    .navbar-custom {
+      .navbar-nav {
+        margin: 0 !important;
+        text-align: center;
+        .contact {
+          a {
+            margin: 0;
+            margin-bottom: 8px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+

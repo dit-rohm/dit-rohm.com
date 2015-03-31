@@ -5,77 +5,80 @@ blog: news
 
 <% latest_articles = page_articles.sort_by{|a| a.date }.reverse[0,5] %>
 
-<section class="service">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-5">
-        <h2>毎週行う勉強会</h2>
-        <p>
-          週に1度、勉強会を開催します。実際にwebサイトを作っていく中で技術力が身につきます。
-        </p>
-      </div>
-      <div class="col-sm-7">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="languages">
-  <h2>Title here</h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <img src="images/html.png">
-        <h3>HTML</h3>
-        <p>
-          週に1回勉強会を開催いたします。ここでは、HTMLやCSSなど、課題に取り組む形で勉強していきます。
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <img src="images/css.png">
-        <h3>CSS</h3>
-        <p>
-          夏と冬にハッカソンを開催します。メンターのサポート付きなので安心です。
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <img src="images/js.png">
-        <h3>JavaScript</h3>
-        <p>
-          優秀なメンター達によるサポートがあります。なので初心者でも歓迎です。
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <div class="php">
-          <img src="images/php.png">
+<%= partial "layouts/header" %>
+
+<main class="main" role="main">
+  <section class="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <h2>毎週行う勉強会</h2>
+          <p>
+            週に1度、勉強会を開催します。実際にwebサイトを作っていく中で技術力が身につきます。
+          </p>
         </div>
-        <h3>PHP / MySQL</h3>
-        <p>
-          優秀なメンター達によるサポートがあります。なので初心者でも歓迎です。
-        </p>
+        <div class="col-sm-7">
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="mentor">
-  <h2>Mentors</h2>
-  <p>ITベンチャー内定者を含む、優秀なメンターがサポートします。</p>
-</section>
-<section class="activity-base">
-  <h2>Location</h2>
-  <p>
-    同志社大学 京田辺キャンパス ローム記念館2F (3階) RM215<br>
-    正門入ってすぐ右
-  </p>
-  <div id="map"></div>
-</section>
+  </section>
+  <section class="languages">
+    <h2>Title here</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="images/html.png">
+          <h3>HTML</h3>
+          <p>
+            週に1回勉強会を開催いたします。ここでは、HTMLやCSSなど、課題に取り組む形で勉強していきます。
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/css.png">
+          <h3>CSS</h3>
+          <p>
+            夏と冬にハッカソンを開催します。メンターのサポート付きなので安心です。
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/js.png">
+          <h3>JavaScript</h3>
+          <p>
+            優秀なメンター達によるサポートがあります。なので初心者でも歓迎です。
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <div class="php">
+            <img src="images/php.png">
+          </div>
+          <h3>PHP / MySQL</h3>
+          <p>
+            優秀なメンター達によるサポートがあります。なので初心者でも歓迎です。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mentor">
+    <h2>Mentors</h2>
+    <p>ITベンチャー内定者を含む、優秀なメンターがサポートします。</p>
+  </section>
+  <section class="activity-base">
+    <h2>Location</h2>
+    <p>
+      同志社大学 京田辺キャンパス ローム記念館2F (3階) RM215<br>
+      正門入ってすぐ右
+    </p>
+    <div id="map"></div>
+  </section>
 
 
 
-<section class="join">
-  <h2>エンジニアを目指しませんか？</h2>
-  <p>
-    初心者歓迎です。お気軽にお問い合わせください。<br>
-  </p>
-  <a class="join-btn" href="https://docs.google.com/forms/d/1MOf0ojOY6SBr6UIp3b0essQ0x7J_kGXcoJ3XEmk4ZRM/viewform?usp=send_form" target="_blank">申し込む</a>
-</section>
-
+  <section class="join">
+    <h2>エンジニアを目指しませんか？</h2>
+    <p>
+      初心者歓迎です。お気軽にお問い合わせください。<br>
+    </p>
+    <a class="join-btn" href="https://docs.google.com/forms/d/1MOf0ojOY6SBr6UIp3b0essQ0x7J_kGXcoJ3XEmk4ZRM/viewform?usp=send_form" target="_blank">申し込む</a>
+  </section>
+</main>
