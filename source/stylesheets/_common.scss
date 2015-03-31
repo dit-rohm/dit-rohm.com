@@ -18,6 +18,14 @@ body {
   line-height: 1.7;
 }
 
+a {
+  color: $purple;
+  &:hover, &:visited {
+    color: $purple;
+    text-decoration: underline;
+  }
+}
+
 .main {
   section {
     padding: $section-margin 0;
