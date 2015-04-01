@@ -6,6 +6,17 @@
     padding: 50px 30px 20px 30px;
     color: $base-text-color;
     font-size: .9rem;
+    .logo {
+      margin-bottom: 20px;
+      a {
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'Myriad Pro' sans-serif;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
     p {
       clear: left;
       margin: 0 15px 10px 0;

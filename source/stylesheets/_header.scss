@@ -40,6 +40,7 @@
 
     .midashi-btn {
       margin-top: 50px;
+      padding: 10px 60px;
       border-radius: 3px;
       color: #eee;
       font-size: 1.1rem;
@@ -49,8 +50,7 @@
       -o-transition: 0.3s ease-in-out;
       transition: 0.3s ease-in-out;
       &:hover {
-        color: silver;
-        border-color: silver;
+        opacity: .7;
       }
     }
   }
