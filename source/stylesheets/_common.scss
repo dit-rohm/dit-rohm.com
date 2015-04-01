@@ -4,7 +4,6 @@
 
 html {
   color: $base-text-color;
-  background: #fff;
   font-size: 14px;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'MS PGothic', 'MS Pゴシック', sans-serif;
   line-height: 1.7;
@@ -12,7 +11,7 @@ html {
 
 body {
   color: $base-text-color;
-  background: #fff;
+  background: $bg-color-dark;
   font-size: 14px;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'MS PGothic', 'MS Pゴシック', sans-serif;
   line-height: 1.7;
