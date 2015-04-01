@@ -6,7 +6,12 @@
   h2 {
     margin: 60px 0 15px 0;
     color: $base-text-color;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    time {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
   }
 
   p {

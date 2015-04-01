@@ -1,11 +1,9 @@
 .footer {
-  margin-top: $section-margin;
-  background: $bg-black-color;
+  background: $bg-color-dark;
 
  .container{
     padding: 50px 30px 20px 30px;
     color: $base-text-color;
-    font-size: .9rem;
     .logo {
       margin-bottom: 20px;
       a {
@@ -17,31 +15,23 @@
         }
       }
     }
-    p {
-      clear: left;
-      margin: 0 15px 10px 0;
-      padding-top: 10px;
-      color: #7f7f7f;
-      text-align: right;
+    .copyright {
+      color: $base-text-color;
+      font-size: .9rem;
     }
     h3{
-      margin:0 0 4px 0;
-      font-size:14px;
-      color:#404040;
+      margin: 0 0 4px 0;
+      font-size: 1rem;
+      color: $base-text-color;
     }
     ul{
       li{
         list-style:none;
         margin-left: -40px;
         a{
-          font-size:13px;
-          line-height:1.8;
+          font-size: .9rem;
           font-weight:normal;
-          color:#7f7f7f;
-         }
-        a:hover{
-          color:#404040;
-          text-decoration:none;
+          color: $sub-text-color;
          }
        }
     }
