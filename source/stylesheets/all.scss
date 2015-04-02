@@ -1,13 +1,13 @@
 @import "bootstrap-sass/assets/stylesheets/bootstrap";
 @import "variables";
+@import "highlight";
 @import "common";
 @import "header";
 @import "footer";
-@import "content";
 @import "social";
-@import "highlight";
-@import "about";
-@import "faq";
-@import "news";
 @import "nav";
+
+@import "main";
+@import "sub";
+
 @import "smartphone";
