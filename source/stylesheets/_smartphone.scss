@@ -5,6 +5,7 @@
       padding: 0;
       .navbar-custom {
         background-color: #fff;
+        z-index: 100;
         .logo {
           a {
             color: $purple;
