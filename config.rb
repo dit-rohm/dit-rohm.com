@@ -27,7 +27,7 @@ activate :blog do |blog|
   # Enable pagination
   # blog.paginate = true
   # blog.per_page = 10
-  # blog.page_link = "page/{num}"
+   blog.page_link = "page/{num}"
 end
 
 activate :blog do |blog|
@@ -36,18 +36,23 @@ activate :blog do |blog|
 
   blog.permalink = "{year}/{month}/{day}/{title}/"
   blog.sources = "{year}-{month}-{day}-{title}.html"
-  # blog.taglink = "tags/{tag}.html"
+  blog.taglink = "tags/{tag}.html"
   blog.layout = "blog"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 120
   # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
+  blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
   blog.new_article_template = "source/templates/blog.erb"
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
+
+  # Enable pagination
+  blog.paginate = true
+  blog.per_page = 5
+  blog.page_link = "page/{num}"
 end
 
 page "/blog/feed.xml", layout: false
