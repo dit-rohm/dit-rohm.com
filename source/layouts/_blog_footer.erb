@@ -1,5 +1,38 @@
-<footer class="footer" role="contentinfo">
-  <div class="inner">
-    <small>&copy; 2015 DIT.</small>
+<footer class="blog_footer" role="contentinfo">
+  <div class="inner container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 footer-content">
+        <h3>Recent Post</h3>
+        <% blog.articles[0...5].each do |article| %>
+        <ul>
+          <li><p><time><%= article.date.strftime('%Y/%m/%d') %></time></p>
+            <p><a href="<%= article.url %>"><%= article.title %></a></p></li>
+        </ul>
+        <% end %>
+      </div>
+
+      <div class="col-md-4 col-sm-6 footer-content">
+        <h3>About Auther</h3>
+        <p class="about-auther">DIT（Doshisha Institute of Technology）は、技術力向上を目的とし同志社／同志社女子大学の学生向けに勉強会やハッカソンを開催する<a href="http://rohm.doshisha.ac.jp/" target="_blank">ローム記念館プロジェクト</a>です。</p>
+        <p class="about-auther">このブログではDITのお知らせ、活動報告のほかに開発、プログラミング等についても書いていきます。</p>
+        <div class="sns-link">
+          <h4>- SNS</h4>
+          <a href="https://twitter.com/dit_rohm/" target="_brank"><img src="/images/twitter_logo.png"></a>
+          <a href="http://facebook.com/dit_rohm/" target="_brank"><img src="/images/fb_logo.png"></a>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 footer-content">
+        <h3>DIT Website</h3>
+        <p class="about-auther">DITのウェブサイトです。DITについてや参加申し込み、FAQなどはこちらのサイトをご覧ください。</p>
+        <ul>
+          <li><p class="dit-link"><a href="../index.html">HOME</a></p></li>
+          <li><p class="dit-link"><a href="../about.html">ABOUT</a></p></li>
+          <li><p class="dit-link"><a href="../news.html">NEWS</a></p></li>
+          <li><p class="dit-link"><a href="../faq.html">FAQ</a></p></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright"><small>&copy; DIT 2015</small></p>
   </div>
 </footer>
