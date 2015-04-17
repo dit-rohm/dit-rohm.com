@@ -29,10 +29,14 @@
         border: 2px solid #493f83;
         content: "";
     }
+  }
 
-    img {
-      width: 100%;
-    }
+  img {
+    width: 100%;
+  }
+
+  p {
+    color: $base-text-color;
   }
 
   h3{
