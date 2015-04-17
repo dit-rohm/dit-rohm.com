@@ -1,0 +1,69 @@
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right:0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.midashi-en {
+  color: #fff !important;
+  text-align: center;
+  letter-spacing: .05rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.midashi-ja {
+  color: #fff;
+  text-align: center;
+}
+
+.header-hr {
+  width: 200px;
+  margin: 0 auto 20px;
+  border: 0;
+  height: 0.5px;
+  background: #fff;
+}
+
+.top-catch {
+  background-color: $purple;
+  padding: 80px 0 50px 0;
+  margin-bottom: 30px;
+
+  a {
+    color: #fff;
+    &:hover, &:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .midashi-en {
+    font-size: 30px !important;
+    line-height: 130%;
+  }
+
+  .midashi-ja {
+    font-size: 12px !important;
+  }
+
+  .header-hr {
+    width: 100px;
+    margin: 0 auto 10px;
+  }
+
+  .top-catch {
+    padding: 50px 0 20px 0;
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,133 @@
+// ブログ記事用CSS
+
+.post {
+  h2 {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+  	border-left: none;
+  	margin: 60px -20px 20px;
+  	padding:7px 35px;
+  	box-shadow: 0 5px 6px -6px rgba(0,0,0,.3);
+
+    &:before {
+        position: absolute;
+        top: 11px;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border: 2px solid #493f83;
+        content: "";
+    }
+    &:after {
+        position: absolute;
+        top: 3px;
+        left: 9px;
+        width: 13px;
+        height: 13px;
+        border: 2px solid #493f83;
+        content: "";
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h3{
+  	font-size: 18px;
+  	border-bottom: 2px solid #ddd;
+  	margin: 50px -12px 17px -12px;
+  	padding: 0.5em 12px 0.4em;
+  	background: #f5f5f5;
+  	text-shadow: -1px 1px 0 rgba(255, 255, 255, 1);
+  }
+
+  h4 {
+  	padding: 9px 0 3px 33px;
+  	margin: 30px 0 10px 0;
+  	font-size: 16px;
+  	font-weight:bold;
+      position: relative;
+  	box-shadow: 0 4px 4px -5px rgba(0,0,0,.3);
+  	border-bottom:none;
+
+    &:after, &:before {
+    	content:'';
+    	height:18px;
+    	width:4px;
+    	display:block;
+    	background: #493f83;
+    	position:absolute;
+    	top:8px;
+    	left:15px;
+    	border-radius:10px;
+    	-webkit-border-radius:10px;
+    	-moz-border-radius:10px;
+    	transform:rotate(45deg);
+    	-webkit-transform:rotate(45deg);
+    	-moz-transform:rotate(45deg);
+    	-o-transform:rotate(45deg);
+    	-ms-transform:rotate(45deg);
+    }
+
+    &:before{
+    	height:10px;
+    	transform:rotate(-45deg);
+    	-webkit-transform:rotate(-45deg);
+    	-moz-transform:rotate(-45deg);
+    	-o-transform:rotate(-45deg);
+    	-ms-transform:rotate(-45deg);
+    	top:16px;
+    	left:7px
+    }
+  }
+
+  ul {
+    li {
+      position: relative;
+      list-style-type: none;
+    }
+
+    li::after {
+    	display: block;
+    	content: '';
+    	position: absolute;
+    	top: .5em;
+    	left: -1em;
+    	width: 6px;
+    	height: 6px;
+    	border-right: 1px solid #666;
+    	border-bottom: 1px solid #666;
+    	-webkit-transform: rotate(-45deg);
+    	transform: rotate(-45deg);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .post {
+    h2 {
+      font-size: 16px;
+    	font-weight: bold;
+    	margin: 60px 0 0;
+    	padding: 8px 0 7px 35px;
+    	box-shadow: 0 5px 6px -6px rgba(0,0,0,.3);
+    }
+
+    h3 {
+    	font-size: 16px;
+    	margin: 40px -7px 10px -7px;
+    	padding: 0.5em 0.4em 0.4em;
+    	background: #f1f1f1;
+    	border-bottom: 2px solid #dadada;
+    }
+
+    h4 {
+    	padding: 9px 0 3px 30px;
+    	margin: 30px -3px 10px -7px;
+    	font-size: 15px;
+    }
+  }
+}
