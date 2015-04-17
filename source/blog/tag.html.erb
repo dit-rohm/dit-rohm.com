@@ -1,26 +1,53 @@
 ---
 blog: blog
+layout: blog
 pageable: true
-per_page: 12
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+<div class="container">
+  <h2>'<%= tagname %>' タグが付けられた記事</h2>
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
-<ul>
   <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ul>
+  <div class="row article-box heightLineParent">
+    <div class="col-md-1 hidden-sm hidden-xs"></div>
+    <div class="col-md-2 col-sm-2 date-box">
+      <p class="date"><%= article.date.strftime('%Y/%m/%d') %></p>
+    </div>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
+    <div class="col-md-6 col-sm-9 summary">
+      <a class="link-to-article" href="<%= article.url %>"></a>
+      <h2 class="article-title"><%= article.title %></h2>
+      <p><%= article.summary %></p>
+    </div>
+
+    <div class="col-md-2 col-sm-1 hidden-xs arrow">
+      <a class="link-to-article" href="<%= article.url %>"></a>
+    </div>
+    <div class="col-md-1 hidden-sm hidden-xs"></div>
+  </div>
+  <hr class="separator">
   <% end %>
-<% end %>
+
+  <div class="row">
+    <% if paginate && num_pages > 1 %>
+
+    <div class="col-xs-4">
+      <% if prev_page %>
+      <p class="prev-link"><%= link_to 'Prev page', prev_page %></p>
+      <% end %>
+    </div>
+
+    <div class="col-xs-4">
+      <p class="page-number">Page <%= page_number %> of <%= num_pages %></p>
+    </div>
+    <% end %>
+
+    <% if paginate %>
+      <% if next_page %>
+      <div class="col-xs-4">
+        <p class="next-link"><%= link_to 'Next page', next_page %></p>
+      </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
