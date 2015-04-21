@@ -17,7 +17,7 @@ pageable: true
         <p class="summary"><a href="<%= article.url %>"><%= article.summary.gsub(/<(".*?"|'.*?'|[^'"])*?>/, "") %></a></p>
     </div>
 
-    <div class="col-md-2 col-sm-1 hidden-xs arrow"></div>
+    <div class="col-md-2 col-sm-1 hidden-xs arrow"><a href="<%= article.url %>"><%= article.title %></a></div>
     <div class="col-md-1 hidden-sm hidden-xs"></div>
   </div>
   <hr class="separator">
