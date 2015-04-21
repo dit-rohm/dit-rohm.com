@@ -2,7 +2,7 @@
 layout: article_layout
 title: 初めてのHTML
 date: 2015-04-14 20:10 JST
-tags:
+tags: 勉強会, html, css
 ---
 
 ## HTMLを書いてみよう
