@@ -26,7 +26,7 @@ pageable: true
     <div class="col-md-6 col-sm-9 summary">
       <a class="link-to-article" href="<%= article.url %>"></a>
       <h2 class="article-title"><%= article.title %></h2>
-      <p><%= article.summary %></p>
+      <p><%= article.summary.gsub(/<(".*?"|'.*?'|[^'"])*?>/, "") %></p>
     </div>
 
     <div class="col-md-2 col-sm-1 hidden-xs arrow">
