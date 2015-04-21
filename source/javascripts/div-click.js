@@ -1,3 +1,11 @@
-$('.article, .arrow').click(function() {
-  location.href = $('.article').find('a').attr('href');
+$('.article').each(function() {
+  $(this).click(function() {
+    location.href = $(this).find('a').attr('href');
+  });
+});
+
+$('.arrow').each(function() {
+  $(this).click(function() {
+    location.href = $(this).find('a').attr('href');
+  });
 });
