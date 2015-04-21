@@ -84,7 +84,7 @@ h3 {
 ## 書いたHTMLとCSSをブラウザで見てみよう
 ちゃんと装飾されて表示されたかな？
 
-![result.png](result.png)
+![result.png](images/2015-04-14-new-html/result.png)
 
 ## 発展課題
 htmlのbodyに以下のコードを書き写してブラウザで確認してみよう。
