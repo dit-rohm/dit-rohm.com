@@ -9,7 +9,7 @@ activate :blog do |blog|
   blog.name = "news"
   blog.prefix = "news"
 
-  blog.permalink = "{year}/{month}/{day}/{title}/"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
   blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
   # blog.layout = "layout"
@@ -34,7 +34,7 @@ activate :blog do |blog|
   blog.name = "blog"
   blog.prefix = "blog"
 
-  blog.permalink = "{year}/{month}/{day}/{title}/"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
   blog.sources = "{year}-{month}-{day}-{title}.html"
   blog.taglink = "tags/{tag}.html"
   blog.layout = "blog"
