@@ -8,10 +8,11 @@ tags: 勉強会, html, css
 ## HTMLを書いてみよう
 [同志社大学のWebページ](http://www.doshisha.ac.jp/index.html)を表示してみよう。
 ブラウザで右クリックをして [ページのソースを表示] を押そう。
-ここで表示されるテキストがHTML（Hypertext Markup Language）と呼ばれるWebの表示に用いられるものだよ。
+ここで表示されるテキストがHTML（Hypertext Markup Language）と呼ばれるWeb表示に用いられるものだよ。
 
 Sublime Text2を開いてCommand+Nを押そう（Windowsの場合はControl+Nだよ）。
-新しいファイルが開いたら以下のHTMLを写してみよう。
+新しいファイルが開いたらCommand+Sを押してファイル名をindex.htmlと書いてデスクトップに保存しよう。
+次に以下のHTMLを写してみよう。
 
 ###index.html
 ```html
@@ -28,8 +29,6 @@ Sublime Text2を開いてCommand+Nを押そう（Windowsの場合はControl+Nだ
 </body>
 </html>
 ```
-
-書き写したらCommand+Sを押してファイル名をindex.htmlと書いてデスクトップに保存しよう。
 
 ## 書いたHTMLをブラウザで見てみよう
 保存したindex.htmlを開くと書いたHTMLをブラウザで確認できるよ。
@@ -50,14 +49,16 @@ bodyで指定したものがページの中身になっているよ。
 
 ## HTMLをCSSで装飾してみよう
 さっきの殺風景なHTMLに装飾を加えるのがCSS（Cascading Style Sheets）だよ。CSSで文字の色や背景を変えてみよう！
+
 Sublime Text2を開いてCommand+Nを押そう（Windowsの場合はControl+Nだよ）。
-新しいファイルが開いたら以下のCSSを書き写してみよう。
+ファイルが開いたらstyle.cssと書いてデスクトップに保存しよう。
+次に以下のCSSを書き写してみよう。
 
 ###style.css
 ```css
 h1 {
   color: red;
-  background-color: white;
+  background-color: gray;
 }
 
 h2 {
@@ -69,8 +70,7 @@ h3 {
 }
 ```
 
-書いたらstyle.cssと書いてデスクトップに保存しよう。
-次にさっき作成したindex.htmlに以下の1行を追記してstyle.cssを読み込もう。
+さっき作成したindex.htmlに以下の1行を追記してstyle.cssを読み込もう。
 
 ###index.html
 ```html
@@ -84,7 +84,7 @@ h3 {
 ## 書いたHTMLとCSSをブラウザで見てみよう
 ちゃんと装飾されて表示されたかな？
 
-![result.png](images/2015-04-14-new-html/result.png)
+![screenshot.png](images/2015-04-14-new-html/screenshot.png)
 
 ## 発展課題
 htmlのbodyに以下のコードを書き写してブラウザで確認してみよう。
@@ -106,7 +106,7 @@ cssに以下のコードを書き写してブラウザで確認してみよう�
 ---（中略）---
 h1 {
   color: red;
-  background-color: white;
+  background-color: gray;
   font-size: 30px;
   border: 3px solid red;
   padding: 16px;
@@ -115,10 +115,15 @@ h1 {
 }
 
 h1:hover {
-  background-color: gray;
+  background-color: white;
 }
 ---（中略）---
 ```
 
 一行ずつ書き写しながらブラウザで動作を確認しよう！
 自分で調べるときは「html タグ」や「css プロパティ」で検索するのがオススメだよ！
+
+## 理解度チェック問題
+以下の画像のように表示させてみよう！
+
+![quiz.png](images/2015-04-14-new-html/quiz.png)
