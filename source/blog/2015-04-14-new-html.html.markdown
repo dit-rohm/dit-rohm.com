@@ -56,16 +56,16 @@ Sublime Text2を開いてCommand+Nを押そう（Windowsの場合はControl+Nだ
 ###style.css
 ```css
 h1 {
-  background-color: #efefef;
-  color: #000000;
+  color: red;
+  background-color: white;
 }
 
 h2 {
-  color: #ff0000;
+  color: blue;
 }
 
 h3 {
-  color: #008000;
+  color: green;
 }
 ```
 
@@ -75,8 +75,8 @@ h3 {
 ###index.html
 ```html
 ---（中略）---
-<title>Document</title>
-<link rel="stylesheet" href="style.css">
+  <title>ここがタイトルだよ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 ---（中略）---
 ```
@@ -105,18 +105,17 @@ cssに以下のコードを書き写してブラウザで確認してみよう�
 ```css
 ---（中略）---
 h1 {
-  background-color: #efefef;
-  color: #000000;
+  color: red;
+  background-color: white;
   font-size: 30px;
-  background: #008000;
-  border: 1px solid #ff0000;
+  border: 3px solid red;
   padding: 16px;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: 1s;
 }
 
 h1:hover {
-  background: #ff0000;
+  background-color: gray;
 }
 ---（中略）---
 ```
