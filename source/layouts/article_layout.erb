@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" Content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title><%= current_article.title + ' - ' unless current_article.nil? %>DIT Blog</title>
     <link  rel="shortcut icon" href="http://dit-rohm.com/images/favicon.png">
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
