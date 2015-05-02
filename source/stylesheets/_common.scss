@@ -25,22 +25,6 @@ a {
   }
 }
 
-.main {
-  section {
-    padding: $section-margin 0;
-    > h2 {
-      color: $base-text-color;
-      text-align: center;
-    }
-    > p {
-      margin: 20px 0 30px;
-      color: $sub-text-color;
-      font-size: .9em;
-      text-align: center;
-    }
-  }
-}
-
 @media (min-width: 1200px) {
   .container {
     width: 970px;
