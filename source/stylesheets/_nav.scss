@@ -9,6 +9,7 @@
   .navbar-custom {
     background-color: $purple;
     border-color: transparent;
+    z-index: 9999;
     .logo {
       a {
         font-size: 1.3rem;
