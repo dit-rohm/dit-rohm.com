@@ -41,6 +41,7 @@ GEM
     hitimes (1.2.2)
     hooks (0.4.0)
       uber (~> 0.0.4)
+    htmlcompressor (0.1.2)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.2)
@@ -87,6 +88,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-minify-html (3.4.0)
+      htmlcompressor (~> 0.1.0)
+      middleman-core (>= 3.2)
     middleman-sprockets (3.4.1)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -153,6 +157,7 @@ DEPENDENCIES
   middleman-deploy
   middleman-google-analytics
   middleman-livereload
+  middleman-minify-html
   middleman-syntax
   nokogiri
   redcarpet
