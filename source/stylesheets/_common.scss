@@ -25,25 +25,37 @@ a {
   }
 }
 
-.main {
-  section {
-    padding: $section-margin 0;
-    > h2 {
-      color: $base-text-color;
-      text-align: center;
-    }
-    > p {
-      margin: 20px 0 30px;
-      color: $sub-text-color;
-      font-size: .9em;
-      text-align: center;
-    }
-  }
-}
-
 @media (min-width: 1200px) {
   .container {
     width: 970px;
   }
+}
+
+@font-face {
+  font-family: 'LigatureSymbols';
+  src: url('fonts/LigatureSymbols.eot');
+  src: url('fonts/LigatureSymbols.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LigatureSymbols.woff') format('woff'),
+       url('fonts/LigatureSymbols.ttf') format('truetype'),
+       url('fonts/LigatureSymbols.svg#LigatureSymbols') format('svg');
+  src: url('fonts/LigatureSymbols.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lsf, .lsf-icon:before {
+  font-family: 'LigatureSymbols';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+      -ms-font-smoothing: antialiased;
+       -o-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+}
+
+.lsf-icon:before {
+  content: attr(title);
+  margin-right: .3em;
+  font-size: 130%;
 }
 

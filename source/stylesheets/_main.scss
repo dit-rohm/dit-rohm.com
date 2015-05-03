@@ -1,3 +1,19 @@
+.main {
+  section {
+    padding: $section-margin 0;
+    > h2 {
+      color: $base-text-color;
+      text-align: center;
+    }
+    > p {
+      margin: 20px 0 30px;
+      color: $sub-text-color;
+      font-size: .9em;
+      text-align: center;
+    }
+  }
+}
+
 .service {
   background: $bg-color;
   h2 {
@@ -60,16 +76,69 @@
 }
 
 .mentor {
+  position: relative;
+  padding-bottom: $section-margin + 15px !important;
   background: $purple;
-  color: #eef;
+  color: $white-base-text-color;
   h2 {
-    color: #eef !important;
+    color: $white-base-text-color !important;
   }
   p {
-    color: #cdcdfa !important;
+    color: $white-sub-text-color !important;
   }
-  .col-sm-2 {
-    text-align: center;
+  .container {
+    padding: 0 20px;
+    // width: 800px;
+    .col-sm-3 {
+      min-height: 50px;
+      padding-left: 0;
+    }
+    a {
+      display: block;
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        text-decoration: none;
+        opacity: .5;
+      }
+      .name, .title {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-left: 65px;
+      }
+      .name {
+        color: $white-base-text-color;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+      .title {
+        margin-top: 3px;
+        color: $white-sub-text-color;
+        font-size: .9rem;
+        line-height: 1.2;
+      }
+      .portrait {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+// あとでmedia queryどっかにまとめようかな
+@media (max-width: 750px) {
+  .mentor {
+    .row {
+      padding: 0 10px;
+      .col-sm-3 {
+        margin-bottom: 10px;
+      }
+    }
   }
 }
 
