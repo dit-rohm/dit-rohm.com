@@ -9,6 +9,7 @@ gem "middleman-deploy"
 gem "middleman-livereload"
 gem "middleman-google-analytics"
 gem "middleman-minify-html"
+gem 'middleman-imageoptim'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
