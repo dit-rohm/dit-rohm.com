@@ -8,13 +8,12 @@
 
   .navbar-custom {
     background-color: $purple;
-    border-color: transparent;
+    border: none;
     z-index: 9999;
     .logo {
       a {
-        font-size: 1.3rem;
-        font-weight: bold;
-        }
+        font-size: 1.6rem;
       }
+    }
   }
 }

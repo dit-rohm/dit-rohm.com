@@ -1,4 +1,7 @@
-@import "bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bootstrap";
+@import "slick";
+@import "slick-theme";
+
 @import "variables";
 @import "highlight";
 @import "common";
@@ -11,3 +14,5 @@
 @import "sub";
 
 @import "smartphone";
+
+
