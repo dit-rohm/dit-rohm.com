@@ -15,28 +15,40 @@ EDM (Electronic Dance Music)が中心です。
 dubstepのような特徴的なクセがないので、EDMに親しみのない人でも聴きやすいと思います。
 
 #### Liquicity Yearmix 2014
-<iframe width="560" height="350" src="https://www.youtube.com/embed/MKHmwmEGFqI" frameborder="0" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="350" src="https://www.youtube.com/embed/MKHmwmEGFqI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 #### Liquicity Yearmix 2013
-<iframe width="560" height="350" src="https://www.youtube.com/embed/Iwh5yOMmyFM" frameborder="0" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="350" src="https://www.youtube.com/embed/Iwh5yOMmyFM" frameborder="0" allowfullscreen></iframe>
+</div>
 
 #### Liquicity Memories Mix
-<iframe width="560" height="350" src="https://www.youtube.com/embed/Y1JVBv4j-2k" frameborder="0" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="350" src="https://www.youtube.com/embed/Y1JVBv4j-2k" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Spinnin' Records
 
 YouTubeのチャンネル登録者数900万人（2015年5月現在）超えのオランダの大人気レーベルです。
 
 #### Spinnin' Sessions 033 - Special: The Best Of 2013
-<iframe width="560" height="350" src="https://www.youtube.com/embed/IYdj98JzqE0" frameborder="0" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="350" src="https://www.youtube.com/embed/IYdj98JzqE0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Proximity
 #### Vicetone - 2014 End of the Year Mix [EDM] [Proximity Exclusive]
-<iframe width="560" height="350" src="https://www.youtube.com/embed/MVYsfODTkpU" frameborder="0" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="350" src="https://www.youtube.com/embed/MVYsfODTkpU" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Avicii
 #### Best of Avicii 2014
-<iframe width="560" height="350" src="https://www.youtube.com/embed/GY_e3fUl0Rg" frameborder="0" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="350" src="https://www.youtube.com/embed/GY_e3fUl0Rg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## まとめ
 
