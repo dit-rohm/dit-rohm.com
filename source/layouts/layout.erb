@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title><%= current_page.data.title + ' - ' unless current_page.data.title.nil? %>DIT</title>
   <link  rel="shortcut icon" href="http://dit-rohm.com/images/favicon.png">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <%= feed_tag :atom, "#{blog("news").options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   <%= stylesheet_link_tag 'all' %>
   <%= google_analytics_universal_tag %>

@@ -51,7 +51,7 @@
 
       .description {
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 30px;
         padding: 0 20px;
         font-size: 1rem;
         font-weight: normal;
@@ -63,6 +63,9 @@
 
   .navigation {
     .navbar-custom {
+      .logo a {
+        font-size: 1.3rem;
+      }
       .navbar-nav {
         margin: 0 !important;
         text-align: center;
@@ -82,6 +85,8 @@
   }
 
   .languages {
-    display: none;
+    img {
+      max-width: 100%;
+    }
   }
 }
