@@ -5,14 +5,14 @@
         <h3>Recent Post</h3>
         <% blog.articles[0...5].each do |article| %>
         <ul>
-          <li><p><time><%= article.date.strftime('%Y/%m/%d') %></time></p>
-            <p><a href="<%= article.url %>"><%= article.title %></a></p></li>
+          <li><p class="post-date"><time><%= article.date.strftime('%Y/%m/%d') %></time></p>
+            <p class="post-title"><a href="<%= article.url %>"><%= article.title %></a></p></li>
         </ul>
         <% end %>
       </div>
 
       <div class="col-md-4 col-sm-6 footer-content">
-        <h3>About Auther</h3>
+        <h3>About Author</h3>
         <p class="about-auther">DIT（Doshisha Institute of Technology）は、技術力向上を目的とし同志社／同志社女子大学の学生向けに勉強会やハッカソンを開催する<a href="http://rohm.doshisha.ac.jp/" target="_blank">ローム記念館プロジェクト</a>です。</p>
         <p class="about-auther">このブログではDITのお知らせ、活動報告のほかに開発、プログラミング等についても書いていきます。</p>
         <div class="sns-link">
