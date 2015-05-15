@@ -1,58 +1,60 @@
- .about, .faq, .news, .mentors {
+.docs-layout {
   padding-top: 50px;
   padding-bottom: $section-margin;
   background: #fff;
-  .wrapper {
-    margin: 0 auto;
-    padding: 0 35px;
-    max-width: 700px;
-
-    > h1 {
-      margin-top: 0;
-      margin-bottom: 10px;
+  .container {
+    padding-right: 20%;
+    h1 {
+      margin: 0 0 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+      font-weight: bold;
       font-size: 1.8rem;
     }
-
     h2 {
-      margin: 60px 0 15px 0;
-      color: $base-text-color;
-      font-size: 1.7rem;
-      font-weight: normal;
+      margin-top: $base-margin;
+      margin-bottom: $base-margin * 0.5;
+      font-size: 1.4rem;
+      font-weight: bold;
       &:first-child {
         margin-top: 0;
       }
-      time {
-        display: block;
-        margin-bottom: 10px;
-        font-size: 1rem;
-      }
     }
-
+    > p {
+      margin-bottom: $base-margin;
+    }
     p {
-      color: $sub-text-color;
-      font-size: .9rem;
-    }
-
-    table {
-      td {
-        color: $sub-text-color;
-        font-size: .9rem;
-      }
+      font-size: 1rem;
+      line-height: 1.8;
     }
   }
 }
 
+@media screen and (max-width: 768px) {
+  .docs-layout {
+    .container {
+      padding-right: 0;
+      padding: 0 $base-margin;
+    }
+  }
+}
+
+.news {
+  section {
+    margin-bottom: $base-margin;
+  }
+  p {
+    margin-bottom: $base-margin * 0.5;
+  }
+}
 
 $mentors-portrait-size: 100px;
-
 .mentors {
-  .wrapper {
-    >p {
-      margin-bottom: 40px;
-    }
+  .container {
+    padding-right: 15%;
     section {
       position: relative;
-      margin-bottom: 60px;
+      margin-bottom: $base-margin * 2;
       min-height: $mentors-portrait-size;
       h2, .title,  p, .skill {
         margin: 0;
@@ -110,9 +112,11 @@ $mentors-portrait-size: 100px;
   }
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .mentors {
-    .wrapper {
+    .container {
+      padding-right: 0;
+      padding: 0 20px;
       section {
         text-align: center;
         h2, .title,  .intro, .skill {

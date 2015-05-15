@@ -1,143 +1,179 @@
 .main {
   section {
     padding: $section-margin 0;
-    > h2 {
-      color: $base-text-color;
-      text-align: center;
-    }
-    > p {
-      margin: 20px 0 30px;
-      color: $sub-text-color;
-      font-size: .9em;
-      text-align: center;
-    }
+  }
+  h2 {
+    margin-bottom: 20px;
+    color: $base-text-color;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
   }
 }
 
 .service {
-  background: $bg-color;
-  h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
+  background: white;
+  padding: 100px 0 !important;
+  .container {
+    padding: 0 $base-margin;
+    max-width: 870px;
   }
-  .row {
-    // margin-bottom: 30px;
+  h2 {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 20em;
+    color: $purple;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.5;
   }
   .col-sm-6 {
-    h2 {
-      // margin-top: 50px;
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
     }
     p {
-      color: $sub-text-color;
-      font-size: .9rem;
+      margin-top: $base-margin * 0.5;
     }
   }
 }
 
 .languages {
-  background: #fff;
+  background: $bg-color;
   .container {
-    margin-top: 70px;
+    padding: 0 $base-margin;
     text-align: center;
-    img {
-      height: 150px;
-    }
-    .php {
-      height: 150px;
-      line-height: 150px;
-      img {
-        width: 170px;
-        height: auto;
+    p {
+      margin: 0 auto;
+      margin-top: $base-margin;
+      max-width: 600px;
+      em {
+        color: $purple;
+        font-style: normal;
+        font-weight: bold;
       }
     }
-    h3 {
-      margin-top: 30px;
-      font-size: 1.3rem;
-      font-weight: bold;
-    }
-    p {
-      margin-top: 20px;
-      color: $sub-text-color;
-      font-size: .9em;
-    }
-  }
-}
-
-.activity-base {
-  background: #fff;
-  #map {
-    width: 100%;
-    height: 500px;
-    @media (max-width: 480px) {
-      height: 200px;
+    img {
+      margin-top: $base-margin * 1.5;
     }
   }
 }
 
 .mentor {
   position: relative;
-  padding-bottom: $section-margin + 15px !important;
-  background: $purple;
-  color: $white-base-text-color;
-  h2 {
-    color: $white-base-text-color !important;
-  }
-  p {
-    color: $white-sub-text-color !important;
-  }
+  background: #fff;
+  text-align: center;
   .container {
-    padding: 0 20px;
-    // width: 800px;
-    .col-sm-3 {
-      min-height: 50px;
-      padding-left: 0;
+    padding: 0 $base-margin;
+    p {
+      margin-top: $base-margin * 0.5;
+      margin-bottom: $base-margin;
     }
-    a {
+    .carousel {
+      padding-left: 0;
+      text-align: center;
+      .slick-prev:before, .slick-next:before {
+        color: black;
+      }
+      .slick-dots li button:before {
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+      }
+    }
+    .member {
       display: block;
-      -webkit-transition: 0.2s ease-in-out;
-      transition: 0.2s ease-in-out;
+      color: $base-text-color;
+      text-decoration: none;
+      @include transition-duration(0.2s);
+      @include transition-timing-function(ease-in-out);
       &:hover {
         text-decoration: none;
-        opacity: .5;
+        opacity: 0.7;
       }
-      .name, .title {
-        display: block;
-        margin: 0;
-        padding: 0;
-        margin-left: 65px;
+    }
+    .portrait {
+      display: block;
+      margin: 0 auto;
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+    }
+    span {
+      display: block;
+    }
+    .name {
+      margin-top: 20px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+    .title {
+      color: $sub-text-color;
+    }
+  }
+}
+
+$_text-color: #aaaab5;
+.question {
+  display: block;
+  background: url("../images/footer_lodyas.png");
+  .container {
+    padding: 0 $base-margin;
+    max-width: 780px;
+    h2 {
+      margin-bottom: $base-margin;
+      color: $_text-color;
+    }
+    h4 {
+      color: $_text-color;
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: $base-margin;
+      color: $sub-text-color;
+      &:last-child {
+        margin-bottom: 0;
       }
-      .name {
-        color: $white-base-text-color;
-        font-size: 1.1rem;
-        font-weight: bold;
-      }
-      .title {
-        margin-top: 3px;
-        color: $white-sub-text-color;
-        font-size: .9rem;
-        line-height: 1.2;
-      }
-      .portrait {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
+    }
+    .more {
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px;
+      max-width: 200px;
+      height: 40px;
+      border: none;
+      border-radius: 3px;
+      background: $orange;
+      color: #fff;
+      font-weight: bold;
+      outline: none;
+      line-height: 40px;
+      text-align: center;
+      text-decoration: none;
+      @include transition-duration(0.2s);
+      @include transition-timing-function(ease-in-out);
+      opacity: .7;
+      &:hover {
+        text-decoration: none;
+        opacity: 1;
       }
     }
   }
 }
 
-// あとでmedia queryどっかにまとめようかな
-@media (max-width: 750px) {
-  .mentor {
-    .row {
-      padding: 0 10px;
-      .col-sm-3 {
-        margin-bottom: 10px;
-      }
+.activity-base {
+  background: #fff;
+  text-align: center;
+  p {
+    margin-top: $base-margin * 0.5;
+    margin-bottom: $base-margin;
+  }
+  #map {
+    width: 100%;
+    height: 400px;
+    @media (max-width: 480px) {
+      height: 200px;
     }
   }
 }
@@ -145,11 +181,12 @@
 .join {
   padding-bottom: $section-margin * 2 !important;
   background: #fff;
+  text-align: center;
   .join-btn {
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    width: 230px;
+    margin-top: 30px;
+    max-width: 230px;
     height: 45px;
     border: none;
     border-radius: 3px;
@@ -160,10 +197,8 @@
     line-height: 45px;
     text-align: center;
     text-decoration: none;
-    -webkit-transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
+    @include transition-duration(0.2s);
+    @include transition-timing-function(ease-in-out);
     &:hover {
       text-decoration: none;
       opacity: .8;
