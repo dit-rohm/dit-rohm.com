@@ -7,7 +7,6 @@
   background-color: $purple;
   background-image: url("../images/bg.png");
   background-size: cover;
-  background-attachment: fixed;
   background-position: center center;
   color: #fff;
   text-align: center;
@@ -138,5 +137,11 @@
   }
   .navbar-collapse {
     box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    background-attachment: fixed;
   }
 }
