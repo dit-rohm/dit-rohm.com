@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   .jumbotron {
     padding: 0;
-    height: 100vh;
+    height: 500px;
     .container {
       padding: 0;
       .navbar-custom {
@@ -38,12 +38,16 @@
         }
       }
     }
-
+    .vertical-center {
+       top: $nav-height;
+    }
     .header-content {
       h1 {
         margin: 0 auto;
+        margin-bottom: $base-margin * 0.5;
         max-width: 9em;
         font-size: 2.1rem;
+        line-height: 1.5;
         em {
           font-style: normal;
           font-size: 2.2rem;
@@ -52,12 +56,14 @@
 
       .description {
         margin: 0 auto;
-        margin-top: 30px;
         padding: 0 20px;
         font-size: 1rem;
         font-weight: normal;
         letter-spacing: 2px;
         line-height: 1.9;
+      }
+      .midashi-btn {
+        margin-top: $base-margin;
       }
     }
   }
