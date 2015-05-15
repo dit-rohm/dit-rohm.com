@@ -2,7 +2,7 @@ $(function () {
   //map表示
   var latlng = new google.maps.LatLng(34.802760, 135.771273);
   var options = {
-      zoom: 16,
+      zoom: 15,
       center: latlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       scrollwheel: false
@@ -18,51 +18,42 @@ $(function () {
     title: 'ローム記念館',
     map:map
   });
-/*
-  $('.header-content h1').velocity(
-    {
-      translateY: '+=200px'
-    }, {
-      duration: 500,
-      easing: 'ease-in-out',
-      loop: 1,
-      delay: 500
-    }
-  );
-  */
- /*
- $('.more').velocity(
-    {
-      translateY: '+=10'
-    }, {
-      duration: 100,
-      easing: 'spring',
-      loop: true,
-      delay: '400'
-    }
- );
- */
-  $('.more').on('click', function() {
-    $('.service').velocity('scroll', {
-      duration: 800,
-    });
-  });
 
-/*
-  var fadeStart=100 // 100px scroll or less will equiv to 1 opacity
-      ,fadeUntil=200 // 200px scroll or more will equiv to 0 opacity
-      ,fading = $('.fading');
-
-  $(window).bind('scroll', function(){
-      var offset = $(document).scrollTop()
-          ,opacity=0
-      ;
-      if( offset<=fadeStart ){
-          opacity=1;
-      }else if( offset<=fadeUntil ){
-          opacity=1-offset/fadeUntil;
+  $('.carousel').slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          autoplay: true,
+          autoplaySpeed: 2000,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-      fading.css('opacity',opacity);
+    ]
   });
-*/
 });
