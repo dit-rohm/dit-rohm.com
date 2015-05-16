@@ -1,5 +1,5 @@
 // ソーシャルボタン用js読み込み
-(function(w,d){
+;(function(w,d){
   w.___gcfg = {lang:"ja"};
   var s,e = d.getElementsByTagName("script")[0],
   a = function(u,f){if(!d.getElementById(f)){s = d.createElement("script");

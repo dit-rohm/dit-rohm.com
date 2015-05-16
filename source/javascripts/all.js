@@ -2,4 +2,5 @@
 //= require "bootstrap.min.js"
 //= require "velocity.min.js"
 //= require "slick.min.js"
-//= require_tree .
+
+//= require "_temp.js"
