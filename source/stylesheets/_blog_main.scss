@@ -15,10 +15,10 @@ body {
 }
 
 a {
-  color: lighten(purple, 15%);
+  color: $link-color;
 
   &:hover, &:visited {
-    color: lighten(purple, 15%);
+    color: $link-color;
     text-decoration: underline;
   }
 }
