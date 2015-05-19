@@ -10,6 +10,11 @@
   <%= feed_tag :atom, "#{blog("news").options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   <%= stylesheet_link_tag 'all' %>
   <%= google_analytics_universal_tag %>
+  <!--[if gte IE 9]>
+  <style type="text/css">
+    .jumbotron { background-attachment: scroll !important }
+  </style>
+  <![endif]-->
 </head>
 <body>
   <%= yield %>
