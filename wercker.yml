@@ -27,6 +27,6 @@ deploy:
     after-steps:
 
         - sherzberg/slack-notify:
-            subdomain: dittt
+            subdomain: $SLACK_SUBDOMAIN
             token: $SLACK_TOKEN
-            channel: "#4-development"
+            channel: $SLACK_CHANNEL
