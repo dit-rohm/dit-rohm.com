@@ -56,6 +56,7 @@ activate :blog do |blog|
 end
 
 page "/blog/feed.xml", layout: false
+page "/news/feed.xml", layout: false
 
 ignore 'templates/*'
 
