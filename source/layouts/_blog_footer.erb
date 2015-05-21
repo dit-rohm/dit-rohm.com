@@ -5,7 +5,7 @@
         <h3>Recent Post</h3>
         <% blog.articles[0...5].each do |article| %>
         <ul>
-          <li><p class="post-date"><time><%= article.date.strftime('%Y/%m/%d') %></time></p>
+          <li><p class="post-date"><time datetime="<%= article.date.strftime('%Y-%m-%dT%H:%M') %>"><%= article.date.strftime('%Y/%m/%d') %></time></p>
             <p class="post-title"><a href="<%= article.url %>"><%= article.title %></a></p></li>
         </ul>
         <% end %>
