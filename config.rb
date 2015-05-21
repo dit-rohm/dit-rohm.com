@@ -147,6 +147,7 @@ configure :build do
     ga.tracking_id = 'UA-61361620-1'
   end
 
+  activate :asset_hash
   activate :minify_css
   activate :minify_javascript
   activate :minify_html
