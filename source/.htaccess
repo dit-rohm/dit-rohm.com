@@ -1,6 +1,7 @@
 <ifModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/png "access plus 1 months"
+  ExpiresByType image/jpeg "access plus 1 months"
 </ifModule>
 
 <ifModule mod_deflate.c>
