@@ -2,7 +2,8 @@
 layout: article_layout
 title: 大学生にオススメ！文献管理ツール「Zotero」の紹介
 date: 2015-05-19 16:03 JST
-tags: 
+author: たむりん
+tags:
 ---
 
 どうも、DITメンターのたむりんです。
