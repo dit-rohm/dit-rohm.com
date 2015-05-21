@@ -7,6 +7,16 @@
   <title><%= current_page.data.title + ' - ' unless current_page.data.title.nil? %>DIT</title>
   <link  rel="shortcut icon" href="http://dit-rohm.com/images/favicon.png">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta property="og:site_name" content="DIT">
+  <meta property="og:title" content="<% if current_page.data.title then %><%= current_page.data.title %><% else %>DIT(Doshisha Institute of Technology)<% end %>">
+  <% if current_page.data.description then %><meta property="og:description" content="<%= current_page.data.description %>"><% end %>
+  <meta property="og:type" content="<% if current_page.url == '/' then %>website<% else %>article<% end %>">
+  <meta property="og:url" content="http://dit-rohm.com<%= current_page.url %>">
+  <meta property="og:image" content="http://dit-rohm.com/images/social.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="2560">
+  <meta property="og:image:height" content="1402">
+  <% if current_page.data.description then %><meta name="description" content="<%= current_page.data.description %>"><% end %>
   <%= feed_tag :atom, "#{blog("news").options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   <%= stylesheet_link_tag 'all' %>
   <%= google_analytics_universal_tag %>
