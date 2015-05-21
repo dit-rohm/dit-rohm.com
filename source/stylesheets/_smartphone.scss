@@ -96,4 +96,9 @@
       max-width: 100%;
     }
   }
+  .question .col-sm-6 {
+    &:first-child {
+      margin-bottom: 30px;
+    }
+  }
 }

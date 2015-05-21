@@ -114,7 +114,6 @@
   }
 }
 
-$_text-color: #aaaab5;
 .question {
   display: block;
   background: url("../images/footer_lodyas.png");
@@ -123,15 +122,15 @@ $_text-color: #aaaab5;
     max-width: 780px;
     h2 {
       margin-bottom: $base-margin;
-      color: $_text-color;
+      color: #ccccd8;
     }
     h4 {
-      color: $_text-color;
+      color: #ccccd8;
       font-weight: bold;
     }
     p {
       margin-bottom: $base-margin;
-      color: $sub-text-color;
+      color: #aaaab5;
       &:last-child {
         margin-bottom: 0;
       }
