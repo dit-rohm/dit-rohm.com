@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name="viewport" Content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title><%= current_article.title + ' - ' unless current_article.nil? %>DIT Blog</title>
+  <title><%= current_page.data.title + ' - ' unless current_page.data.title.nil? %>DIT Mentor Blog</title>
   <link  rel="shortcut icon" href="http://dit-rohm.com/images/favicon.png">
   <meta property="og:site_name" content="DIT Blog">
   <meta property="og:title" content="<% if current_page.data.title then %><%= current_page.data.title %><% else %>DIT(Doshisha Institute of Technology) Blog<% end %>">
