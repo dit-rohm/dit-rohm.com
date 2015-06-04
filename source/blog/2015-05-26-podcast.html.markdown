@@ -3,6 +3,7 @@ layout: article_layout
 title: 知識の幅を広げよう！エンジニアが絶対に聴くべきPodcast4選
 date: 2015-05-26 13:14 JST
 author: うっちー
+eyecatch: http://gretchenrubin.com/wp-content/uploads/2015/06/podcastmikeheadset1.jpg
 tags:
 ---
 

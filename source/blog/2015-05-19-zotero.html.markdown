@@ -3,6 +3,7 @@ layout: article_layout
 title: 大学生にオススメ！文献管理ツール「Zotero」の紹介
 date: 2015-05-19 16:03 JST
 author: たむりん
+eyecatch: https://dit-rohm.com/blog/2015-05-19/zotero_top.png
 tags:
 ---
 
@@ -22,7 +23,7 @@ tags:
 
 ## Zotero とは？
 
-Zoteroとは、学術論文の管理を目的としたオープンソースソフトウェアで、ジョージ・メイソン大学が開発しています。 
+Zoteroとは、学術論文の管理を目的としたオープンソースソフトウェアで、ジョージ・メイソン大学が開発しています。
 
 [![Zotero](./2015-05-19/zotero_top.png "Zotero")](http://zotero.org)
 
@@ -86,4 +87,3 @@ RTF, HTMLを選んだ場合はその形式のファイルが保存され、ク�
 しかし、「一度論文情報をローカルに保存してからRefWorksにアップロード」というやり方がどうも面倒だったので、ボクはZoteroを利用しています。
 
 みなさんもどうぞ使ってみてください！
-

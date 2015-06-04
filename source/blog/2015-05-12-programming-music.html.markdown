@@ -3,6 +3,7 @@ layout: article_layout
 title: プログラミング中に聞きたい作業用BGM6選（EDM）
 date: 2015-05-12 21:23 JST
 author: けいちゃん
+eyecatch: https://farm8.staticflickr.com/7047/8687596569_e351ae7d05_b.jpg
 tags: 音楽
 published: true
 ---
