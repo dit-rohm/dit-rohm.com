@@ -3,6 +3,7 @@ layout: article_layout
 title: 知識の幅を広げよう！エンジニアが絶対に聴くべきPodcast4選
 date: 2015-05-26 13:14 JST
 author: うっちー
+description: 皆さん通学・通勤時は何をしていますか？何もしていないというあなたにも、何かしているあなたにも、エンジニア向けのPodcastをオススメします。
 tags:
 ---
 

@@ -3,6 +3,7 @@ layout: article_layout
 title: プログラミング中に聞きたい作業用BGM6選（EDM）
 date: 2015-05-12 21:23 JST
 author: けいちゃん
+description: プログラミング時にテンションを上げたい、そんな時に聴きたいBGMを紹介したいと思います。
 tags: 音楽
 published: true
 ---
