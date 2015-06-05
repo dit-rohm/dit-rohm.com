@@ -25,7 +25,7 @@ pageable: true
 
     <div class="col-md-6 col-sm-9 article">
       <h2 class="article-title"><a href="<%= article.url %>"><%= article.title %></a></h2>
-        <p class="summary"><a href="<%= article.url %>"><%= article.summary.gsub(/<(".*?"|'.*?'|[^'"])*?>/, "") %></a></p>
+        <p class="summary"><a href="<%= article.url %>"><%= escape_html(article.summary) %></a></p>
     </div>
 
     <div class="col-md-2 col-sm-1 hidden-xs arrow">
