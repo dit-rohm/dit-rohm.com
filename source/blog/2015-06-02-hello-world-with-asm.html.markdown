@@ -4,11 +4,12 @@ title: アセンブリーでHello, World!
 date: 2015-06-02 00:00 JST
 author: ともくん
 description: Intel Syntaxのアセンブリー言語でHello, Worldを書いてみます。
+eyecatch: https://dit-rohm.com/blog/2015-06-02/qemu.png
 tags:
 ---
 こんにちは。 DITメンターのともくんです。  
 プログラミングの学習を始めてほとんどの人が始めに作るであろうプログラムは、標準出力に`"Hello, World!"`と表示するものでしょう。C言語なら```printf("Hello, World!")```などといった様子でしょう。関数を呼び出すとOSが標準出力に文字列が表示されるのは便利なこのですが、その舞台裏も気になるところだと思います。今日は、OSに頼らずに画面に文字を表示するようなプログラムを取り上げたいと思います。  
-今回は、Intel SyntaxのアセンブリーをNASMでアセンブルして使います。コードは以下のようになります。`;`より右はコメントであり、動作の解説を加えています。 
+今回は、Intel SyntaxのアセンブリーをNASMでアセンブルして使います。コードは以下のようになります。`;`より右はコメントであり、動作の解説を加えています。
 
 ```nasm
 ;hello.asm
@@ -31,8 +32,8 @@ ret
 
 loader:
 xor ax, ax     ;まず、この3行でセグメントの開始地点を0にする
-mov ds, ax     
-mov es, ax     
+mov ds, ax
+mov es, ax
 
 mov si, string ;下の文字列のあるアドレスをsiレジスタに入れる
 call print     ;画面に表示するルーチンの呼び出し
