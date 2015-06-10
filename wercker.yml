@@ -24,14 +24,14 @@ deploy:
             name: deploy to Kagoya
             code: bundle exec middleman deploy
 
-        - seigyo/cloudflare-purge:
-            api: $CF_API
-            email: $CF_EMAIL
-            domain: $CF_DOMAIN
-
     after-steps:
 
         - sherzberg/slack-notify:
             subdomain: $SLACK_SUBDOMAIN
             token: $SLACK_TOKEN
             channel: $SLACK_CHANNEL
+
+        - seigyo/cloudflare-purge:
+            api: $CF_API
+            email: $CF_EMAIL
+            domain: $CF_DOMAIN
