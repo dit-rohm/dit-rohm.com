@@ -17,6 +17,12 @@ build:
             name: middleman build
             code: bundle exec middleman build
 
+    after-steps:
+
+        - wantedly/pretty-slack-notify:
+            webhook_url: $SLACK_WEBHOOK_URL
+            channel: $SLACK_CHANNEL
+
 deploy:
     steps:
 
@@ -24,14 +30,13 @@ deploy:
             name: deploy to Kagoya
             code: bundle exec middleman deploy
 
+    after-steps:
+
+        - wantedly/pretty-slack-notify:
+            webhook_url: $SLACK_WEBHOOK_URL
+            channel: $SLACK_CHANNEL
+
         - seigyo/cloudflare-purge:
             api: $CF_API
             email: $CF_EMAIL
             domain: $CF_DOMAIN
-
-    after-steps:
-
-        - sherzberg/slack-notify:
-            subdomain: $SLACK_SUBDOMAIN
-            token: $SLACK_TOKEN
-            channel: $SLACK_CHANNEL
