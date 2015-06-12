@@ -2,6 +2,8 @@
 
 The source code for dit-rohm.com.
 
+[![wercker status](https://app.wercker.com/status/30dd7f3a9c5f19804f02a4b041e18eea/s "wercker status")](https://app.wercker.com/project/bykey/30dd7f3a9c5f19804f02a4b041e18eea)
+
 ## Requirements
 
 - ruby 1.9.3 or later
@@ -40,4 +42,3 @@ $ bundle exec middleman article TITLE --blog=TYPE
 ```
 
 The `TYPE` is a type of the article (`news` or `blog`).
-
