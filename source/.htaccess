@@ -6,3 +6,5 @@
 <ifModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css application/javascript application/x-font-ttf application/vnd.ms-fontobject application/x-font-otf image/svg+xml text/plain
 </ifModule>
+
+ErrorDocument 404 /404.html
