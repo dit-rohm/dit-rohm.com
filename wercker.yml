@@ -1,4 +1,4 @@
-box: wercker/rvm
+box: mikoim/docker-frontend:latest
 
 build:
     steps:
@@ -11,7 +11,7 @@ build:
 
         - script:
             name: run bower install
-            code: bower install --config.interactive=false
+            code: bower install --config.interactive=false --allow-root
 
         - script:
             name: middleman build
