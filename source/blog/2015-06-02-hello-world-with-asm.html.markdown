@@ -4,6 +4,7 @@ title: アセンブリーでHello, World!
 date: 2015-06-02 00:00 JST
 author: ともくん
 description: Intel Syntaxのアセンブリー言語でHello, Worldを書いてみます。
+keywords: アセンブリ言語,Hello world,Intel
 eyecatch: https://dit-rohm.com/blog/2015-06-02/qemu.png
 tags:
 ---
