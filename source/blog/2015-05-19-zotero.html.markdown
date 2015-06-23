@@ -4,6 +4,7 @@ title: 大学生にオススメ！文献管理ツール「Zotero」の紹介
 date: 2015-05-19 16:03 JST
 author: たむりん
 description: 卒論完成間近になって、「どの論文を参考にしたっけ！？」と慌てなくてもいいように論文をキチンと管理できるソフトウェアを今日は紹介します。
+keywords: Zotero,論文,管理,修論,レポート
 eyecatch: https://dit-rohm.com/blog/2015-05-19/zotero_top.png
 tags:
 ---
