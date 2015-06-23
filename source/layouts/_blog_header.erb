@@ -21,7 +21,7 @@
             <ul class="dropdown-menu">
               <% blog.tags.sort.each do |tag, articles| %>
                 <li>
-                  <% link_tag = "/blog/tags/" + tag + ".html" %>
+                  <% link_tag = "/blog/tags/" + tag.downcase + ".html" %>
                   <%= link_to tag, link_tag %>
                 </li>
               <% end %>
