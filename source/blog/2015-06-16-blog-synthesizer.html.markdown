@@ -11,7 +11,7 @@ tags: 音楽
 
 DITメンターのはやPです。
 
-音楽番組で流れている音楽や、爆発的に人気が広がっているボカロなどでよく使われているシンセサイザー。  
+音楽番組で流れている音楽や、爆発的に人気が広がっているボカロなどでよく使われているシンセサイザー。
 特徴的な電子音が流れていますが、シンセとは一体何のことなのか紹介したいと思います。
 
 ##シンセサイザーとは
@@ -25,13 +25,14 @@ DITメンターのはやPです。
 
 ##キーボード,エレクトーン,との違いは？
 ####キーボード
-鍵盤楽器全体を表す名前
+鍵盤楽器全体を表す名前。シンセやエレクトーン全般を表す総称である。
 ####シンセサイザー
 元になるサンプリング音楽や発信器の音を加工して、音を作り出す楽器。
 オリジナル音源を作ることができるのが特徴です。
 ####エレクトーン
 ヤマハの電子オルガンの登録商標で、電子鍵盤楽器にフットベースがセットになっている楽器。
-電子ピアノ＋電子オルガン＋シンセがエレクトーンといえます。
+鍵盤が左手右手用に二つ、足用に1つ存在しているのがピアノとの違いでもあり、エレクトーンの大きな特徴です。
+イメージとしては、電子ピアノ＋電子オルガン＋シンセがエレクトーンといえます。
 
 ##おすすめアーティスト
 ####中田ヤスタカ
@@ -41,7 +42,7 @@ DITメンターのはやPです。
 彼の手がける楽曲は基本的にシンセを用いるものが多く、NIのMassiveのシンセを主に使用しています。
 
 <div class="youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sKXnQAWma3k" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XVtSuw0kTvI" frameborder="0" allowfullscreen></iframe></div>
 
 ####藤森 崇多
 コナミデジタルエンタテインメント所属のゲームミュージック作曲家。
@@ -51,12 +52,12 @@ DITメンターのはやPです。
 楽曲が盛り沢山入っていて、藤森崇多の全てともいえます！！
 
 <div class="youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aW7m63dwBuk" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOyhUG5Fa68" frameborder="0" allowfullscreen></iframe></div>
 
 ##まとめ
 現在では、カラオケで流れているBGMもほとんどはシンセサイザーが使われています。
 また初音ミクなどで有名なボカロミュージックでもシンセサイザーの存在は不可欠となっています。
 ぜひ、シンセに興味を持った方は、色々youtubeなどで検索してみてください！
-以前に投稿してあるEDMに関しての記事にもシンセを多様した曲が沢山あるので参考にどうぞ！  
+以前に投稿してあるEDMに関しての記事にもシンセを多様した曲が沢山あるので参考にどうぞ！
 
 [DIT-blog(EDMについて)](https://dit-rohm.com/blog/2015/05/12/programming-music.html)
