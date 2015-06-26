@@ -152,10 +152,10 @@
       text-decoration: none;
       @include transition-duration(0.2s);
       @include transition-timing-function(ease-in-out);
-      opacity: .7;
+      opacity: 1;
       &:hover {
         text-decoration: none;
-        opacity: 1;
+        opacity: .7;
       }
     }
   }
