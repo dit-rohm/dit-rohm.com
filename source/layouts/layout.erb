@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title><%= current_page.data.title + ' - ' unless current_page.data.title.nil? %>DIT(Doshisha Institute of Technology)</title>
+  <title><%= if current_page.data.title.nil? then 'DIT - Doshisha Institute of Technology' else current_page.data.title + ' - DIT' end %></title>
   <meta name="keywords" content="<%= current_page.data.keywords unless current_page.data.keywords.nil? %>">
   <meta name="description" content="<%= current_page.data.description unless current_page.data.description.nil? %>">
   <meta property="og:site_name" content="DIT(Doshisha Institute of Technology)">
