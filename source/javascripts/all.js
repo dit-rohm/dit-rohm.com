@@ -4,3 +4,4 @@
 //= require "slick.min.js"
 
 //= require "_temp.js"
+//= require "_social-buttons.js"
