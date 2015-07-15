@@ -1,0 +1,16 @@
+.dhacks {
+  display: none;
+  padding: 10px 0;
+  background: #4c92cd;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
