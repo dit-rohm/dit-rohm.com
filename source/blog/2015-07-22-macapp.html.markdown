@@ -1,0 +1,117 @@
+---
+layout: article_layout
+title: Macにしてから使い始めたアプリ10選
+date: 2015-07-22 15:56 JST
+author: ryoupon
+description: おすすめのMacアプリの紹介です
+keywords: アプリ, Mac
+eyecatch: https://dit-rohm.com/blog/2015-07-22/eyecatch.jpg
+tags: アプリ
+---
+
+
+#私がWindowsからMacにして使い始めたアプリ10選
+
+こんにちは。りょうぽんです。
+今回は私が最近WindowsからMacにPCを変えた時に使い始めたアプリ10個を上げていこうと思います。
+これらはほとんどMac使いの方々から紹介していただいたもので、もうすでに他のサイトでも同じようなことが紹介されていますが、
+今回はとくに便利なアプリをDIT用に改めて紹介します。
+あとは、特にMac専用みたいなのを紹介しているわけでもなく、私が使っているアプリの紹介という形ですのであしからず。  
+
+公式サイトとcaskでインストールするコマンドを書いておいたので気になったものがあればぜひインストールしてみてください。
+もしhomebrewやcaskを入れていない場合はこれ以下からターミナルにていれてください。  
+homebrew:`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`  
+homebrew-cask:`brew install caskroom/cask/brew-cask`
+
+##iTerm2
+このターミナルがとても秀逸で、Windowsではコマンドプロンプトでぽちぽちやってたんですが、使い勝手が全然違います…ぜひzshを入れてみてください。
+また、色味とかも自分用に設定できるのでカラースキームも変更してみてください。
+おしゃれにターミナルを使いこなしたい人にぜひ。
+ちなみに私はHybridというカラースキームを使っています。  
+ダウンロードは<a href="https://www.iterm2.com/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install iterm2`
+
+![iterm2](./2015-07-22/01.png)
+
+##TotalSpaces
+このアプリはデスクトップの切り替えを直感的にしてくれます。
+私は知らないんですが、昔のOS Xにはあった機能をアプリで実現したという形ですね。
+今はデスクトップの移動は横なのですが、これを使うと上下左右にデスクトップを配置できます。
+切り替えは自分の好きなキーバインドを設定できます。  
+ダウンロードは<a href="http://totalspaces.binaryage.com/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install totalspaces`
+
+![ts](./2015-07-22/02.png)
+
+##Shift It
+Windowsでいう`Win key + 矢印`です。
+Windowsでは画面の分割をスムーズにできていたのに、と思っていたらMacではこのアプリで同じことができます。
+こちらも自分で好きなキーバインドを当てはめてください。  
+ダウンロードは<a href="https://code.google.com/p/shiftit/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install shiftit`
+
+![si](./2015-07-22/03.png)
+
+##ImageMagick
+画像の変換がしたい、と思ったときにはこれです。
+コマンドで変えたい画像をぽちっと入力するだけで変換してくれます。
+特にTeXで.epsファイルを作るときに役立ってます。
+homebrewからインストールしてあげてください。
+コマンドとしては`convert aaa.png aaa1.jpg`のようにしてあげると変換してくれます。  
+ダウンロードは<a href="http://www.imagemagick.org/script/index.php" target="_blank">こちら</a>  
+コマンドはこちら`brew install imagemagick`
+
+##Kobito
+マークダウンをリアルタイムプレビューしながらかけるアプリです。
+よくお世話になっているQiitaさんにも投稿できます。
+このブログ記事もKobitoさんを使って書いています。
+あとはUML図がかけるようになれば最高だと思います。  
+ダウンロードは<a href="http://kobito.qiita.com/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install kobito`
+
+![kobito](./2015-07-22/05.png)
+
+##Locamatic
+学校にくるとプロキシの設定とか色々面倒ですよね。
+こちらのアプリで自動的にネットワークの設定をしてくれるので自分で切り替える必要もなく楽になります。
+詳しい設定の仕方は[DITのテキスト](https://github.com/dit-rohm/textbook/blob/master/common/proxy_on_mac.md)にあるのでぜひ見てみてください。  
+ダウンロードは<a href="http://www.45rpmsoftware.com/locamatic.php" target="_blank">こちら</a>  
+こちらはcaskにはありませんでした。
+
+##CheatSheet
+その名の通りチートシートです。
+コマンドキーを長押しするだけでいろんなアプリのショートカットキーの一覧を出してくれます。
+これからコマンドを覚えたい人用に、もしくはあーあのコマンドなんだっけとなる人用に。  
+ダウンロードは<a href="http://www.mediaatelier.com/CheatSheet/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install cheatsheet`
+
+##ClipMenu
+過去にコピーしたものでも履歴からまたコピーすることができます。
+前にコピーしたものをもう一度使いたいなんてときに便利です。  
+ダウンロードは<a href="http://www.clipmenu.com/ja/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install clipmenu`
+
+##Shupapan
+ファイルのリネームを一気にしてくれるアプリです。
+いろんな設定がすでにあるので自分のしたいリネームの設定も用意してくれてるはずです。
+コマンドでやるには少し不安な私にはありがたいです。  
+ダウンロードは<a href="http://sunsky3s.s41.xrea.com/shupapan/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install shupapan`
+
+![sp](./2015-07-22/09.png)
+
+##AppCleaner
+ここまで色々なアプリを紹介してきましたが、結局自分の好みなどもあると思うので、どんなもんかと入れてみたアプリを使わないなーと思ったらこのアプリでアンインストールしてください。
+アプリ厨なのでこの作業ですらアプリでやってしまいます。
+一瞬でできるのでとても楽です。  
+ダウンロードは<a href="http://www.freemacsoft.net/appcleaner/" target="_blank">こちら</a>  
+コマンドはこちら`brew cask install appcleaner`
+
+![ac](./2015-07-22/10.png)
+
+***
+
+以上が私が使っているおすすめアプリの紹介となります。
+新しいアプリが見つかれば嬉しいです。
+気になったものがあればぜひ使ってみてください。
+
