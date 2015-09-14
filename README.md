@@ -33,12 +33,3 @@ $ bundle exec middleman server
 
 Go to `http://localhost:4567` and you'll see the website.
 
-## Create an article
-
-To create an article, Run the following command:
-
-```
-$ bundle exec middleman article TITLE --blog=TYPE
-```
-
-The `TYPE` is a type of the article (`news` or `blog`).
