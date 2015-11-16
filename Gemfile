@@ -14,4 +14,3 @@ gem "builder", "~> 3.0"
 # For article summaries
 gem "nokogiri"
 gem "redcarpet"
-

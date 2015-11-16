@@ -6,7 +6,7 @@ The source code for dit-rohm.com.
 
 ## Requirements
 
-- ruby 1.9.3 or later
+- ruby 2.0.0 or later
 - bundler
 - bower
 
@@ -32,4 +32,3 @@ $ bundle exec middleman server
 ```
 
 Go to `http://localhost:4567` and you'll see the website.
-
