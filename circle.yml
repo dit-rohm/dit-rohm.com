@@ -1,0 +1,23 @@
+machine:
+  ruby:
+    version: 2.2.3
+  timezone:
+    Asia/Tokyo
+
+general:
+  artifacts:
+    - "build"
+
+dependencies:
+  pre:
+    - bower install
+
+test:
+  post:
+    - echo 'No test available'
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - bash contrib/deploy.sh
