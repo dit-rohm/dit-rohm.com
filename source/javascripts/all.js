@@ -6,4 +6,4 @@
 
 //= require "_temp.js"
 //= require "_social-buttons.js"
-
+//= require "_pixel.js"
