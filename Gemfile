@@ -1,9 +1,9 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem "middleman", "~> 3.0"
 gem "middleman-blog", "~> 3.0"
 gem "middleman-syntax"
-gem "middleman-deploy", "~> 1.0"
+gem "middleman-deploy"
 gem "middleman-livereload"
 gem "middleman-google-analytics"
 gem "middleman-minify-html"

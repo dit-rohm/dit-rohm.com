@@ -18,10 +18,10 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.3",
-    "bootstrap-sass": "~3.3.3",
-    "velocity": "~1.2.2",
-    "slick.js": "~1.5.5",
+    "jquery": "~2.2.1",
+    "bootstrap-sass": "~3.3.6",
+    "velocity": "~1.2.3",
+    "slick.js": "~1.5.9",
     "jquery.cookie": "~1.4.1"
   }
 }

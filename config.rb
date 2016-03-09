@@ -103,11 +103,8 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 activate :syntax
 
 activate :deploy do |deploy|
-  deploy.method   = :ftp
-  deploy.host     = ENV['FTP_HOST']
-  deploy.path     = ENV['FTP_HOME']
-  deploy.user     = ENV['FTP_USER']
-  deploy.password = ENV['FTP_PASSWORD']
+  deploy.build_before = true
+  deploy.method = :git
 end
 
 configure :development do
