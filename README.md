@@ -2,33 +2,32 @@
 
 The source code for dit-rohm.com.
 
-[![wercker status](https://app.wercker.com/status/30dd7f3a9c5f19804f02a4b041e18eea/s "wercker status")](https://app.wercker.com/project/bykey/30dd7f3a9c5f19804f02a4b041e18eea)
-
 ## Requirements
 
-- ruby 2.0.0 or later
-- bundler
-- bower
+- Ruby 2.0.0 or later
+- Bundler
+- Bower
 
 ## Getting Started
 
 Clone this repository:
 
-```
-$ git clone https://github.com/dit-rohm/dit-rohm.com
+```bash
+git clone https://github.com/dit-rohm/dit-rohm.com
 ```
 
-Install dependencies listed in `Gemfile` and `bower.json`:
+Install dependencies:
 
-```
-$ bundle install --path vendor/bundle
-$ bower install
+```bash
+npm install
+`npm bin`/bower install
+bundle install --path vendor/bundle
 ```
 
 Then you can run the server:
 
-```
-$ bundle exec middleman server
+```bash
+bundle exec middleman server
 ```
 
 Go to `http://localhost:4567` and you'll see the website.

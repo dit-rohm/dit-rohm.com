@@ -1,7 +1,7 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
-    activesupport (4.2.5)
+    activesupport (4.2.6)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -37,7 +37,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.8)
+    eventmachine (1.0.9.1)
     execjs (2.6.0)
     ffi (1.9.10)
     haml (4.0.7)
@@ -49,13 +49,13 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.3)
-    kramdown (1.9.0)
+    kramdown (1.10.0)
     less (2.6.0)
       commonjs (~> 0.2.7)
     libv8 (3.16.14.13)
-    listen (3.0.5)
+    listen (3.0.6)
       rb-fsevent (>= 0.9.3)
-      rb-inotify (>= 0.9)
+      rb-inotify (>= 0.9.7)
     middleman (3.4.1)
       coffee-script (~> 2.2)
       compass (>= 1.0.0, < 2.0.0)
@@ -87,12 +87,12 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
-    middleman-google-analytics (2.0.1)
+    middleman-google-analytics (2.1.0)
       activesupport (~> 4.1)
       erubis
       middleman-core (>= 3.4)
       uglifier (~> 2.6)
-    middleman-livereload (3.4.5)
+    middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
@@ -109,14 +109,14 @@ GEM
       rouge (~> 1.0)
     mime-types (3.0)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2015.1120)
+    mime-types-data (3.2016.0221)
     mini_portile2 (2.0.0)
-    minitest (5.8.3)
+    minitest (5.8.4)
     multi_json (1.11.2)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
-    net-ssh (3.0.1)
-    nokogiri (1.6.7.1)
+    net-ssh (3.0.2)
+    nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     padrino-helpers (0.12.5)
       i18n (~> 0.6, >= 0.6.7)
@@ -130,13 +130,13 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rb-fsevent (0.9.6)
-    rb-inotify (0.9.5)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.3.3)
+    redcarpet (3.3.4)
     ref (2.0.0)
     rouge (1.10.1)
-    sass (3.4.20)
+    sass (3.4.21)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -170,7 +170,7 @@ DEPENDENCIES
   less
   middleman (~> 3.0)
   middleman-blog (~> 3.0)
-  middleman-deploy (~> 1.0)
+  middleman-deploy
   middleman-google-analytics
   middleman-livereload
   middleman-minify-html
