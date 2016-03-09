@@ -1,0 +1,10 @@
+Sitemap: http://dit-rohm.com/sitemap.xml
+
+User-agent: Megalodon
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Disallow:

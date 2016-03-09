@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DIT</title>
+  <subtitle>勉強会の日程やイベント等の告知</subtitle>
+  <id>http://dit-rohm.com/news</id>
+  <link href="http://dit-rohm.com/news"/>
+  <link href="http://dit-rohm.com/news/news/feed.xml" rel="self"/>
+  <author>
+    <name>DIT</name>
+  </author>
+</feed>
